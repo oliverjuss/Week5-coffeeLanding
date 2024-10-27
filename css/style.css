@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP:wght@100..900&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Rethink Sans",sans-serif;
+    text-align: center;
+}
+
+.intro-image
+{
+    background-attachment: fixed;
+    background-image: url('../img/pexels-juanpphotoandvideo-894695.jpg');
+    background-size: cover;
+    height:800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.intro-image__link a
+{
+    background-color: #634024d1;
+    border: 0.3rem solid #634024;
+    color: #bcbdb3;
+    padding: 2rem;
+    display: inline-block;
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__link a:hover
+{
+    transform:scale(1.1);
+}
+
+.intro-text
+{
+    height: 250px;
+    background-color: #634024;
+    color: #e4e8e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 35rem;
+}
+
+.intro-text__textbox h3
+{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.quality-image
+{
+    background-attachment: fixed;
+    height: 400px;
+    background-image: url(../img/pexels-lilartsy-1132586.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image-link a
+{
+        background-color: #060f20de;
+        border: 0.3rem solid #060f20;
+        color: #bcbdb3;
+        padding: 2rem;
+        display: inline-block;
+        font-size: 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 0.5s ease-in-out;
+}
+
+.quality-image-link a:hover
+{
+    transform: scale(1.1)
+}
+
+.quality-text
+{
+        height: 250px;
+        background-color: #d7a961;
+        color: #4d2f24;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 35rem;
+}
+
+.quality-text-textbox h3 
+{
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+}
+
+.origin-imgage
+{
+        background-attachment: fixed;
+        height: 400px;
+        background-image: url(../img/pexels-marta-dzedyshko-1042863-2067628.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+
+
+.orgin-image-link a
+{
+        background-color: #aa9269c7;
+        border: 0.3rem solid #aa9269;
+        color: #191e18;
+        padding: 2rem;
+        display: inline-block;
+        font-size: 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 0.5s ease-in-out
+}
+
+.orgin-image-link a :hover
+{
+    transform: scale(1.1);
+}
+
+.origin-text
+{
+        height: 250px;
+        background-color: #613b1e;
+        color: #e9ebe5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 35rem;
+}
+
+.origin-text-textbox h3
+{
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+}
+
+.footer
+{
+    height: 100px;
+    background-color: #7b4f44;
+    color: #b5c4cb;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-bottom: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer ul li
+{
+    display: inline-block;
+    margin: 1rem;
+    
+}
+
+.footer ul li a
+{
+    color: #c8cfd7;
+    text-decoration: none;
+}
+
+.footer ul li:hover
+{
+    transform: scale(1.1);
+}
+
+.footer ul li a:hover
+{
+    color: #86a0b9;
+}
